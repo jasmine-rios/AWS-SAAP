@@ -1,0 +1,447 @@
+# Well-Architected Framework
+
+# Module 1: AWS Well-Architected Framework Overview 
+
+### Well-Architected Framework Pillars 
+
+AWS has 6 pillars of the Well-Architected Framework: 
+
+- Operational Excellence 
+
+- Security 
+
+- Reliability 
+
+- Performance Efficiency 
+
+- Cost Optimization 
+
+- Sustainability 
+
+### Components of the Well-Architected Framework 
+
+Well-Architect Framework components are: 
+
+- Content  
+
+- Tools 
+
+- Data 
+
+Content is where you learn AWS guidelines and composes of: 
+
+- Pillars 
+
+- Design Principals 
+
+- Questions 
+
+- Best Practices 
+
+Tools is the AWS Well-Architected Tool you can use to measure your workload and teams against these best practices 
+
+Data is what you require during the Well-Architected Framework Review of your workloads 
+
+
+### Well-Architected Framework Content 
+
+The Well-Architected Framework is a set of questions and design principals across 6 pillars 
+
+Lenses provide guidance with a focus on specific industry or technology domains 
+
+To evaluate the health of your workloads, you will answer a set of foundational question based on 
+
+- Framework 
+
+- Pillars 
+
+- Lenses 
+
+- Content ranges from the following: 
+
+- White papers 
+
+- Training 
+
+- Website 
+
+- And others 
+
+Well-Architected Framework Tools 
+
+Tools will let you work with content and make into to readable data 
+
+Tools ranges from: 
+
+- Solution Q&A 
+
+- Dashboards 
+
+- Reports 
+
+- Review approach (Self-service, AWS Partner Program, AWS led) 
+
+- Marketplace 
+ 
+
+Well-Architected Framework Data 
+
+- Examples of data in the framework are: 
+
+- Documents of Workloads (Description, Regions, Pillar priorities) 
+
+- Review (Rating, Answers, Notes, Milestones 
+
+- Improvement Plans 
+
+Well-Architected Lenses 
+
+Lenses extend the Well-Architected Framework to specific industry and tech domains 
+
+Examples of these domains are: 
+
+- Machine Learning 
+
+- Data Analytics 
+
+- Serverless Applications 
+
+- High-Performance Computing 
+
+- Internet of Things 
+
+- SAP 
+
+- Streaming Media 
+
+- Gaming Industry 
+
+- Hybrid Networking 
+
+- Financial Services 
+
+You use your applicable lenses together with the framework and its 6 pillars 
+
+Lenses can also be user-defined and managed custom lenses to align with your organization's industry, operational plans, and internal processes. 
+
+Defining your own lenses, you create your own question sets and add context and best practices as they relate to you. 
+
+### Design Principals 
+
+General design Principals that work in the cloud is: 
+
+- Stop guessing your capacity needs 
+
+- Test systems at production scale 
+
+- Automate to make architecture experimentation easier 
+
+- Allow for evolutionary architectures 
+
+- Drive architectures using data 
+
+- Improve through game days 
+
+Each pillar of the framework has its own design principals. 
+
+These are called pillar-specific design principals and they apply only to specific pillars. 
+
+An example of this is the security pillar design principle to prepare for security events and relate to the Security pillar. 
+
+### Questions/Best Practices 
+
+You use questions to validate whether a specific best practice is in place or not. 
+
+Each pillar has a set of questions and best practices to address that last question. 
+
+Architectural judgement is important as some questions or Best practices are not the best for you. 
+
+## Module 2: How to Run a Well-Architected Framework Review 
+
+### Well-Architected Framework Review 
+
+The Well-Architected Framework Review is a continuous improvement mechanism that helps customers consistently evaluate their workloads against AWS best practices. 
+
+You can see the risk for each review's recommendation remediation to show what is important to fix now. 
+
+The review outcome also comes with actions to improve a workload based on the six pillars 
+
+### A Mechanism for Continuous Improvement 
+
+To achieve the desired goal from a framework review, you have to have continuous improvement plan with your workload lifecycle 
+
+This mechanism that allows this improvement using these steps in every new workload: 
+
+- Learn 
+
+- Measure 
+
+- Improve 
+
+You first start with learning the strategies and best practices 
+
+Next you measure your architecture using the framework using certain lenses and your best practices in the AWS Well-Architected Tool 
+
+Finally, you use the outcome form the Tool to address high-risk issues using improvement plans, Well-Architected Labs, and AWS Partner Network (APN), AWS solutions architecture teams, and more. 
+
+### Intent of a Review 
+
+The purpose of a review of architect is to identify any critical issues that might need to be addressed or areas that could be improved. 
+
+The outcome is a set of actions that should improve the experience of using the workload. 
+
+Review should be blame free and a fast lightweight conversation to allow a deep dive. 
+
+Continuous approach to review from the architects and engineers is best then holding a formal review meeting 
+
+### Learnings 
+
+Review early in the cycle so it's easier to fix and can influence design. 
+
+Neglecting decisions like backups is inportant. 
+
+Most workloads will have items that need to be addressed and that is not a bad thing 
+
+Use Cases 
+
+The use cases for doing reviews: 
+
+- Learning AWS best practices 
+
+- Technology Governance 
+
+AWS WA Tool provides a consistent process for measuring your architecture using the AWS Best Practices by providing a portfolio of the workloads in your organization and also has metadata (production, account, or region) 
+
+AWS WA creates a central view across all six pillars and any risks that exists and can be given to senior management to see trends and training that might be needed. 
+
+### Three Phase Review Process 
+ 
+There are three phases to running a Well-Architected Framework Review: 
+
+- Prepare 
+
+- Review 
+
+- Improve 
+
+In the Prepare phase, you define a workload for review and identify individual that can answer questions during the review on each pillar. You need identify someone to own the improvement plan and the implementation as well, called a sponsor.  
+
+During the Review phase, you run the actual review using the AWS WA tool and publish the results with notes and recommended improvement actions. You also identify low and high risk issues that were find 
+
+In the Improve phase, you review the risky issues and decide the priority and an individual treatment plan.  
+
+### Preparing the Reviews 
+
+You have to define the workload to be reviewed. 
+
+A workload can be a process, technology, infrastructure, team, or a combo of them all that delivers value. 
+
+Next, identify the core team for the workload review. The team is responsible for the success of the workload and contains a SME for each pillar. 
+
+Then you hold a scoping session for the workload. 
+
+Review Preparation Steps 
+
+This is an example timeline: 
+
+- 3 weeks before review: Select workload and team 
+
+- 16 days before review, hold scoping session to confirm workload definitions and appropriate questions from AWS WA tool like lenses. Identity SMEs for questions and define review and approach. 
+
+- 5 days before review: Scope and agenda confirmed by all participants and reminder to bring all relevant information that is readily available. 
+
+- 1 day before review: Reminder of review attendance for party. 
+
+### Running the Review 
+
+Some best practices for running the review: 
+
+Core review team has moderator to manage meetings and stick to the scope defined in prepare phase 
+
+One person takes notes on discussion and enters it into the AWS WA tool and note taker can be rotated. Note taker and moderator should not be the same person. 
+
+Only one person updates the tool at a time as WA tool overwrites records. 
+
+Use S3 to store analyses or other diagrams or docs related to workload 
+
+Use simple name for S3 bucket like account and workload name 
+
+### Improve 
+
+Define the risks before prioritizing them. 
+
+Prioritizing risks to be mitigated depends on the likelihood and impact of a risk. 
+
+Most critical to business should be the first thing addressed; impacts on business can be 
+
+- Lost Sales 
+
+- Corporate Liability 
+
+- Brand Reputation 
+
+- Loss of Market 
+
+- Longer Time to Market 
+
+- Legal 
+
+- Regulatory 
+
+Risks are identified based on business goals, needs, and priorities and are categorized as high or medium (HRI = High-risk Issues and MRI = Medium-risk issues) 
+
+### Well-Architected Improvement Workflow 
+
+The Improvement Workflow is continuous and looping: 
+
+1. Identify risks, Improvement opportunities 
+
+2. Understand risks improvement opportunities 
+
+3. Determine prescriptive solutions 
+
+4. Prioritize improvements 
+
+5. Implement and track improvements 
+
+Improvement workflow should identify , prioritize, and later address these risks. 
+
+Identify the risks and improvement identities by using Well-Architected Framework Review against the workload to measure cloud best practices. 
+
+Capturing data about the workflow generates better insights to understand where the risks are and improvement opportunities. 
+
+With the improvement opportunities you can determine prescriptive solutions. 
+
+The solutions should take the greatest priority based on potential impact and level of effort to implement them and eliminate as many risks as possible at the same time. 
+
+Once you have the solution, identify which solutions take the greatest priority from the business perspective. 
+
+Best practices focus on people, processes, and technology. A blend of them works to remedy the risks. 
+## Module 3 - Deep Dive on the AWS Well-Architected Tool
+
+### A mechanism for continous improvement
+
+To achieve desired goal from a framework review, you must do continous improvement that integrates with your workload lifecycle: 
+
+1. This starts by learning the strategies and best practices for architecting in the cloud.
+
+2. Measure your architecture using the framework, AWS Well-Architected lenses, and your organization's best practices with the custom lense in the Well-Architected Tool.
+
+3. Use the outcome to improve your cloud architecture by addresssing any high-risk issues. You identify these issues using improvement plans, Well-Architected Labs, AWS Partner Network, AWS solutions architecture teams, and more
+
+These three steps of continous improvement has to be consistently applied on every workload in your organization.
+
+A workload identifies a set of components that together deliever buisness value.
+
+### Components of the Well-Architected Framework
+
+The framework includes content that you can use to learn AWS best practices.
+
+It also has a tool that can help measure your workload and teams against best practices.
+
+The tool contains data that you acquire during the review of your workloads that you can use to continously improve your workloads and operations.
+
+### AWS Well-Archicted Tool Overview
+
+The tool shows the resources for the Rgion you selected in the AWS Management Console.
+
+Continual updates and improvements to the framework and the tool are made based on customer feedback.
+
+If you have workloads that are not using the most recent version of a lens or the framework, you have an option to upgrade those workloads using the "View avaliable upgrades" option in the console.
+
+You can access a list of all the current workloads avaliable in a particular account and Region in the Workloads list in the console. 
+
+
+You can also view workload details such as name, owner, number of questions answered, and number of risks identified. From the workloads console, you also have the ability to define a new workload to startt a new review for that workload.
+
+### AWS Well-Architected Tool new workload
+
+When creating a new workload in the tool, the first thing you need is a unique and descriptive name to identify it.
+
+You also need to specify a description for the workload to document its scope and intended purpose.
+
+Another mandatory field is the review owner field. The review owner is the person who ultimately has responsibility for completing the review, reporting the status of risks, and tracking improvements over time.
+
+The two choices for the environment of the workload is production and pre-production. 
+
+The last mandatory field is the the Regions in which it runs. Since you define the workload, it's more logical so Regions that the workload runs in are to help search, sort, and filter. 
+
+You can also use the tool beyond the AWS environment and look at on-premises or in other cloud provider environments.
+
+The next section in the tool is account ID or account IDs if your workload spans multiple accounts. 
+
+You do not need to give the tool IAM permissions or access to the account IDs that are specified in the tool.
+
+If you are using the Well-Architected API, or services provided by AWS software partners that work accross accounts, you might need change permissions in the account IDs listed for programmatic access to work corretly. 
+
+You can optionally specify the URL of an architectual design for the workload you will be doing the review on.
+This can be used as a resource for refrence when running a review to ensure that everyone has the same setup information about the workload.
+
+The last set of options when creating a new workload is to establish the industry type and industry for your organization or workload. This helps with sorting, filtering, and searching when you create multiple workloads.
+
+### AWS Well-Architected Tool workload details
+
+After the workload has been created or selected, you will find the overview. 
+
+In the overview, you have the ability to edit the details of the workload after creation and can also delete the workload.
+
+The overview also shows number of questions that would have been answered out of the total avaliable. 
+
+It also contains the risks that have been identified during the review process. 
+
+You also have the option to save a milestone for tracking progress when doing a framework review from the overview page.
+
+Below the workload details you will see any notes about the workload overall. These notes are open ended and can be used to track progress, important changes, or upcoming launch information.
+
+Below the notes, you will see the lenses applied. This includes both the lenses created and supported by AWS and custom lenses creation.
+
+At the bottom of the workload details, you will notice the pillar priority you selected for the workload.
+
+This is not to say this is the most important pillar just what you are focused on first. If the priorities change, you can edit to change the pillar priority.
+
+Changing the pillar priority will rearrange the order of the questions in the tool and change the recommendations for improvements based on your priorities.
+
+### AWS Well-Architected Tool Milestones
+
+Milestones are a mechanism that you can use to track the changes that happen to a workload over time. Typically, a milestone is created after you completed your inital review.
+
+As you make changes to your workload, you can update your answers, notes, and best practices to denote these changes.
+
+After those updates have been made, you can create a new milestone to help track progress and improvements over time. 
+
+Select any of the milestones created by name, and then choose "Generate Report". The report will be based on the status of the review at the point in time that the milestone was saved.
+
+### AWS Well-Architected Tool Sharing
+
+You have the ability to share workloads in the tool with other users, accounts, or even through AWS Organizations.
+
+If you share a workload with multiple principals, there is an option to search or filter to help find current workload shares.
+
+Through the sharing deatils, you can view what the current principal is and whether it is an IAM user, another AWS account, or an AWS Organization.
+
+You are also able to review the current status of a share, whether it is pending or accepted, and what permissions it grants other prinicipals.
+
+### AWS Well-Architected Tool Content
+
+At the top you will find the pillar and question number, including the question that is the topic of discussion. Each question has a key concept it relates to.
+
+Each concept in a question in the framework is designed to help you understand how to implement the design prinicple of that pillar.
+
+Below the question and its explanation, you will find check boxes that represent the best practices for how to achieve that key concept.
+
+In the detail bar on the left of the screen, you can explore additional explanation about each practice. 
+
+You can also access helpful resources to learn more about potential methods for implementing best practices in that question.
+
+### AWS Well-Architected Tool Custom Lenses
+
+Custom lenses can include pillars, questions, answer choices, helpful resources, and improvement plans.
+
+You can specify rules to determine which options, when not followed, would result in high or medium risks. Then you can provide your own guidance to resolve these risks.
+
+This helps you share these lenses across your accounts and consistantly measure workloads in your organization.
+
+You create custom lenses using the JSON template in the tool then upload/apply it like regular lenses.
+
+You can share custom lenses with another AWS account, solutions architect, or partner,
+

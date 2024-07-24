@@ -1,6 +1,6 @@
 # Well-Architected Framework
 
-# Module 1: AWS Well-Architected Framework Overview 
+## Module 1: AWS Well-Architected Framework Overview 
 
 ### Well-Architected Framework Pillars 
 
@@ -445,3 +445,75 @@ You create custom lenses using the JSON template in the tool then upload/apply i
 
 You can share custom lenses with another AWS account, solutions architect, or partner,
 
+## Module 4 - Deep Dive on the Operational Excellence Pillar
+
+### What is the operational excellence pillar?
+
+Some of the fundamentals of operational excellence are ensuring your workloads, processes, and procedures deliver business value to you organization.
+
+Your workloads need to deliver effective business value, and all the supporting functions around that workload need to reinforce that.
+
+It's about running your workloads effectively. Having a workload that is secure, cost optimized, reliable, and performant is fantastic but if it can't run and operate it effectively, then it becomes an overhead to the business.
+
+### Operational Excellence
+
+There are five design principals for operational excellence in the cloud:
+
+- Perform Operations as Code
+- Make Frequent, Small, and Reversible Changes
+- Refine Operations Procedures Frequently
+- Anticipate Failure
+- Learn From All Operational Failures
+
+#### Perform Operations as Code
+First, perform operations as code. In the code, you can apply the same engineering discipline that you use for application code to your entire environment. 
+
+You can define your entire workload, such as applications, infrastructure, and so on, as code and update it with code.
+
+You can script your operations procedures and automate their launch by invoking them in response to events.
+
+This can limit human error and drive consistant responses to events.
+
+#### Make Frequent, Small, and Reversible Changes
+
+The second principle is to make frequent, small, and reversible changes.
+
+Design workloads so that you can update components regularly to increase the flow of beneficial changes into your workload.
+
+Make changes in small increments that you can reverse if they fail to help identify and resolve issues introduced to your environment, without affecting customers when possible.
+
+#### Refine Operations Procedures Frequently
+
+The third principle is to refine operations procedures frequently. 
+
+As you use operations procedures, look for opportunities to improve them.
+
+As you evolve your workload, evolve your procedures appropriately.
+
+Set up regular game days to review and validate that all procedures are effective and that teams are familiar with them.
+
+#### Anticipate Failure
+
+The forth principle is to anticipate failure. 
+
+Perform premortem exercises to identify potential sources of failure so you can remove or mitigate them. 
+
+Test your failure scenarios and validate your understanding of their impact.
+
+Test your response procedures to ensure they are effective and that teams are familiar with how to launch them.
+
+Set up regular game days to test workload and team responsess to simulated events.
+
+#### Learn From All Operational Failures
+
+The last principle is to learn from all operational failures.
+
+Drive improvement through lessons learned from all operational events and failures.
+
+Share what you learn across teams and through the entire organization.
+
+### Opearational Excellence Best Practices
+
+To help you navigate the operational excellence best practices, the pillar looks at four difference focus areas:
+
+- 

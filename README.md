@@ -1,5 +1,7 @@
 # AWS-SAAP
-Study material for AWS Soution Architect Professional
+Study material for AWS Solution Architect Professional for renewal
 
 # Resources
-- 
+- (AWS SkillBuilder - AWS Security)[https://skillbuilder.aws/]
+- ()[]
+- ()[]

@@ -1,5 +1,5 @@
 # AWS-SAAP
-Study material for AWS Solution Architect Professional for renewal
+Study material for AWS Security Specialty for renewal
 
 # Resources
 - [AWS SkillBuilder - AWS Security](https://skillbuilder.aws/learning-plan/2D57DTTB9T/exam-prep-plan-security--specialty-scsc03--english/7X8SS2CA3U)
